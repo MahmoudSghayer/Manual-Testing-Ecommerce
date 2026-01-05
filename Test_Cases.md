@@ -12,7 +12,7 @@
 
 | TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
 |------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
-| TC_R2_01 | TS_R2_01 | Verify login with valid credentials | User is registered | 1. Open login page<br>2. Enter valid credentials<br>3. Click Login | Valid username/password | Login successful | | | High |
+| TC_R2_01 | TS_R2_01 | Verify login with valid credentials | User is registered | 1. Open login page<br>2. Enter valid credentials<br>3. Click Login | Valid username/password | Login successful | User logged in successfully and was redirected to account page | Pass | High |
 | TC_R2_02 | TS_R2_02 | Verify login with invalid password | User is registered | 1. Enter valid username<br>2. Enter invalid password<br>3. Click Login | Wrong password | Error message displayed | | | High |
 | TC_R2_03 | TS_R2_03 | Verify login with empty fields | User is on login page | 1. Leave fields empty<br>2. Click Login | Empty fields | Validation message displayed | | | Medium |
 
