@@ -22,4 +22,4 @@
 |------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
 | TC_R5_01 | TS_R5_01 | Verify product added to cart | User is logged in | 1. Select product<br>2. Click Add to Cart | Product | Product added to cart | Confirmation message displayed, cart icon updated, and product visible in cart | Pass | High |
 | TC_R5_02 | TS_R5_02 | Verify cart quantity update | Product in cart | 1. Open cart page<br>2. Increase product quantity | Quantity = 2 | Quantity and total price updated correctly | Cart quantity and total price updated correctly | Pass | Medium |
-| TC_R5_03 | TS_R5_03 | Verify product removal from cart | Product exists in cart | 1. Open cart page<br>2. Click remove/delete product | Cart empty | Product removed and cart updated correctly | TC_R5_03 executed – Pass | Pass | Medium |
+| TC_R5_03 | TS_R5_03 | Verify product removal from cart | Product exists in cart | 1. Open cart page<br>2. Click remove/delete product | Cart empty | Product removed and cart updated correctly | Product was removed from cart and cart updated correctly | Pass | Medium |
