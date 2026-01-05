@@ -5,7 +5,7 @@
 | TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
 |------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
 | TC_R1_01 | TS_R1_01 | Verify registration with valid data | User is on registration page | 1. Open registration page<br>2. Enter valid details<br>3. Click Register | Valid email, valid password | User is registered successfully | User was successfully registered and redirected to account page | Pass | High |
-| TC_R1_02 | TS_R1_02 | Verify registration with invalid email | User is on registration page | 1. Enter invalid email<br>2. Click Register | invalid-email | Error message displayed | | | Medium |
+| TC_R1_02 | TS_R1_02 | Verify registration with invalid email | User is on registration page | 1. Enter invalid email<br>2. Click Register | invalid-email | Error message displayed | System displayed validation message "Invalid email address" and blocked registration | Pass | Medium |
 | TC_R1_03 | TS_R1_03 | Verify mandatory fields validation | User is on registration page | 1. Leave mandatory fields empty<br>2. Click Register | Empty fields | Validation error displayed | | | High |
 
 ## Login Test Cases (R2)
