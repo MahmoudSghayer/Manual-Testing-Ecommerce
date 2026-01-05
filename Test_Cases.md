@@ -23,3 +23,29 @@
 | TC_R5_01 | TS_R5_01 | Verify product added to cart | User is logged in | 1. Select product<br>2. Click Add to Cart | Product | Product added to cart | Confirmation message displayed, cart icon updated, and product visible in cart | Pass | High |
 | TC_R5_02 | TS_R5_02 | Verify cart quantity update | Product in cart | 1. Open cart page<br>2. Increase product quantity | Quantity = 2 | Quantity and total price updated correctly | Cart quantity and total price updated correctly | Pass | Medium |
 | TC_R5_03 | TS_R5_03 | Verify product removal from cart | Product exists in cart | 1. Open cart page<br>2. Click remove/delete product | Cart empty | Product removed and cart updated correctly | Product was removed from cart and cart updated correctly | Pass | Medium |
+
+
+### Checkout Test Cases (R6)
+
+| TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
+|------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
+| TC_R6_01 | TS_R6_01 | Verify checkout with valid details | Product in cart, user logged in | 1. Go to checkout<br>2. Enter valid details<br>3. Place order | Order placed successfully | Order placed successfully | | | High |
+
+### Logout Test Cases (R7)
+
+| TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
+|------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
+| TC_R7_01 | TS_R7_01 | Verify user logout | User logged in | 1. Click logout | User logged out | User logged out successfully | | | Medium |
+
+
+### Session Test Cases (R8)
+
+| TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
+|------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
+| TC_R8_01 | TS_R8_01 | Verify session expiration after logout | User logged out | 1. Logout<br>2. Click browser back | User redirected to login | User redirected to login page | | | Medium |
+
+
+
+
+
+
