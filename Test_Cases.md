@@ -21,4 +21,4 @@
 | TC ID | Scenario ID | Description | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status | Priority |
 |------|-------------|------------|---------------|------------|-----------|-----------------|---------------|--------|----------|
 | TC_R5_01 | TS_R5_01 | Verify product added to cart | User is logged in | 1. Select product<br>2. Click Add to Cart | Product | Product added to cart | Confirmation message displayed, cart icon updated, and product visible in cart | Pass | High |
-| TC_R5_02 | TS_R5_02 | Verify cart quantity update | Product in cart | 1. Increase quantit
+| TC_R5_02 | TS_R5_02 | Verify cart quantity update | Product in cart | 1. Open cart page<br>2. Increase product quantity | Quantity = 2 | Quantity and total price updated correctly | Cart quantity and total price updated correctly | Pass | Medium |
